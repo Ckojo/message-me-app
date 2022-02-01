@@ -42,6 +42,11 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+# Sass-powered version of Semantic UI and ready to drop into Rails, Compass, or Sprockets.
+gem 'semantic-ui-sass'
+
+gem 'jquery-rails'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
