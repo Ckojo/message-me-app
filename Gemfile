@@ -46,6 +46,8 @@ gem "bootsnap", require: false
 gem 'semantic-ui-sass'
 
 gem 'jquery-rails'
+gem 'bcrypt', '~> 3.1', '>= 3.1.16'
+gem 'hirb'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
