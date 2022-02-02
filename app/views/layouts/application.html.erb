@@ -16,6 +16,16 @@
         <%= render 'layouts/navigation' %>
       </div>
     </div>
+    <% if notice.present? %>
+      <div class="ui visible message">
+        <p><%= notice %></p>
+      </div>
+    <% end %>
+    <% if alert.present? %>
+      <div class="ui visible message">
+        <p><%= alert %></p>
+      </div>
+    <% end %>
     <%= yield %>
   </body>
 </html>
